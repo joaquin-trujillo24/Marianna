@@ -1,0 +1,15 @@
+const btnNo = document.getElementById('btnNo');
+const btnSi = document.getElementById('btnSi');
+
+// Truco: El botón "No" se mueve cuando ella intenta tocarlo
+btnNo.addEventListener('mouseover', () => {
+  const x = Math.random() * (window.innerWidth - btnNo.offsetWidth);
+  const y = Math.random() * (window.innerHeight - btnNo.offsetHeight);
+  btnNo.style.position = 'absolute';
+  btnNo.style.left = `${x}px`;
+  btnNo.style.top = `${y}px`;
+});
+
+btnSi.addEventListener('click', () => {
+  alert('YEEEEEEEEEEEEEI');
+});
