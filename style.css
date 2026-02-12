@@ -1,0 +1,25 @@
+body {
+  background-color: #ffebee; /* Un rosa suave */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.contenedor {
+  margin-top: 100px;
+}
+
+#foto-principal {
+  width: 300px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btnSi { background-color: #ff4081; color: white; border: none; }
